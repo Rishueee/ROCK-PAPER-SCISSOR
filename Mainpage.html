@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="s"><span id="sc">0</span>-<span id="sco">0</span></h1>
+      <div class="main-page">
+        <div class="you">
+          <p class="text">You</p>
+          <div class="ans" id="character">
+            <img src="/assets/rock-hand.png" id="hand" />
+          </div>
+          <div class="sybol">
+            <img src="/assets/rock-logo.png" class="logo" id="rock" />
+            <img src="/assets/paper-logo.png" class="logo" id="paper" />
+            <img src="/assets/scissors-logo.png" class="logo" id="scissors" />
+          </div>
+        </div>
+        <div>
+          <img src="/assets/vs.png" alt="vs" id="vs" />
+        </div>
+        <div class="you">
+          <p class="text">Comp</p>
+          <div id="ai"></div>
+        </div>
+      </div>
+    </div>
+    <div id="play-again-container">
+      <h1 id="end"></h1>
+      <button id="starting">Play Again</button>
+    </div>
+
+    <script src="Mainpage.js"></script>
+  </body>
+</html>
